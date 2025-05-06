@@ -1,0 +1,44 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/smiley/.config/pomotroid/logs/.41342b47d0e9ca910866683b522cee5f8463b265-audit.json",
+    "files": [
+        {
+            "date": 1745223835506,
+            "name": "/home/smiley/.config/pomotroid/logs/pomotroid-2025-04-21.log",
+            "hash": "77931665356dfbf58a4fcdb4c1a06e96"
+        },
+        {
+            "date": 1745295825375,
+            "name": "/home/smiley/.config/pomotroid/logs/pomotroid-2025-04-22.log",
+            "hash": "23836879181a1beadec9d57fe78752a0"
+        },
+        {
+            "date": 1745388452196,
+            "name": "/home/smiley/.config/pomotroid/logs/pomotroid-2025-04-23.log",
+            "hash": "a2eb22c811a0dc3d062b6f9aa0721186"
+        },
+        {
+            "date": 1745465540489,
+            "name": "/home/smiley/.config/pomotroid/logs/pomotroid-2025-04-24.log",
+            "hash": "45fd927ab75a9f340530fce8b26af1c9"
+        },
+        {
+            "date": 1745914538694,
+            "name": "/home/smiley/.config/pomotroid/logs/pomotroid-2025-04-29.log",
+            "hash": "e96052661d81e4d072bff7de9cc2495c"
+        },
+        {
+            "date": 1746257076474,
+            "name": "/home/smiley/.config/pomotroid/logs/pomotroid-2025-05-03.log",
+            "hash": "bb3e3e566df81ead4bc9f42f2ccc02d5"
+        },
+        {
+            "date": 1746409371962,
+            "name": "/home/smiley/.config/pomotroid/logs/pomotroid-2025-05-05.log",
+            "hash": "8ec506f8d6eb58b45fd8b630853c7f17"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+lf
+xi python3.11
+python
+python3
+n
+lf
+git clone 'https://github.com/Ajatt-Tools/transformers_ocr.git'\
+cd -- 'transformers_ocr'\
+sudo make install 
+visudo
+sudo visudo
+su
+sudo make install
+groups
+su
+n
+lf
+n
+cd repos/
+ls
+ls
+lf
+cd ..
+cd transformers_ocr
+sudo make install
+transformers_ocr download
+xr python3
+xr python3 python3-cairo python3-httplib2 python3-parsing youtube-dl
+xr calcurse
+xr youtube-dl
+xr python3
+xr python3-cairo
+xr python3-gobject
+xr arandr
+xi python3.11
+python3
+python
+python
+python3.11
+xi arandr
+pip install
+xi python3
+xi python3-pip
+pip install
+lf
+xr python3.11
+
+xi lxappearance
+lf
+cd repos
+cd 
+cd .local
+ls
+mkdir src
+cd src
+git clone https://github.com/LukeSmithxyz/voidrice 
+n
+ls
+lf
+git clone https://github.com/LukeSmithxyz/voidrice 
+git clone https://github.com/LukeSmithxyz/dwm
+lf
+lf
+git clone https://github.com/LukeSmithxyz/st 
+git clone https://github.com/LukeSmithxyz/dwmblocks 
+git clone https://github.com/LukeSmithxyz/dmenu
+cd dmenu
+sudo make install
+cd ..
+cd dwm
+sudo make install
+cd ..
+cd dwmblocks
+sudo make install
+cd ..
+cd st
+sudo make install
+cd ..
+lf
+xi nnn
+nnn
+nnn
+lf
+xi ueberzug
+lf
+lfub
+lf
+xi pipewire
+pipewire-pulse
+lf
+xi pulsemixer
+pulsemixer
+n
+lf
+pkill pipewire
+pkill wireplumber
+xi pulseaudio
+xi pywal
+xi wireplumber
+n
+nnn
+lf
+lf
+lfub
+lf
+nnn
+lfcd
+sudo xbps-install xorg
+sudo xbps-install megatools
+megatools
+sudo xbps-install papirus-icon-theme
+	lfcd
+git clone https://github.com/LukeSmithxyz/voidrice 
+lfcd
+cp shell ~/.config
+cp -r shell ~/.config
+lfcd
+startx
+startx
+startx
+startx
+startx
+startx
+startx
+startx
+startx
+startx

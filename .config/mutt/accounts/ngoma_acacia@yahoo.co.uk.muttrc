@@ -1,0 +1,18 @@
+# vim: filetype=neomuttrc
+# muttrc file for account ngoma_acacia@yahoo.co.uk
+set real_name = "ngoma_acacia"
+set from = "ngoma_acacia@yahoo.co.uk"
+set sendmail = "msmtp -a ngoma_acacia@yahoo.co.uk"
+alias me ngoma_acacia <ngoma_acacia@yahoo.co.uk>
+set folder = "/home/smiley/.local/share/mail/ngoma_acacia@yahoo.co.uk"
+set header_cache = "/home/smiley/.cache/mutt-wizard/ngoma_acacia_yahoo.co.uk/headers"
+set message_cachedir = "/home/smiley/.cache/mutt-wizard/ngoma_acacia_yahoo.co.uk/bodies"
+set mbox_type = Maildir
+set hostname = "yahoo.co.uk"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spool_file = "+INBOX"
+set postponed = "+Drafts"
+set trash = "+Trash"
+set record = "+Sent"
+
+macro index o "<shell-escape>mailsync ngoma_acacia@yahoo.co.uk<enter>" "sync ngoma_acacia@yahoo.co.uk"

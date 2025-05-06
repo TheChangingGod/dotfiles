@@ -1,0 +1,11 @@
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:32.200Z"}
+{"message":"app ready","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:32.495Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:32.744Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:32.746Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:32.747Z"}
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:33.460Z"}
+{"message":"focus round round reset","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:44.413Z"}
+{"message":"focus round round started","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:07:57.403Z"}
+{"message":"focus round completed","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:14:57.415Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:14:58.938Z"}
+{"message":"quitting app...","level":"info","hostname":"Blackbox","timestamp":"2025-04-23T06:16:38.260Z"}

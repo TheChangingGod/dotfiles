@@ -1,0 +1,7 @@
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-05-03T07:24:36.478Z"}
+{"message":"app ready","level":"info","hostname":"Blackbox","timestamp":"2025-05-03T07:24:36.743Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"Blackbox","timestamp":"2025-05-03T07:24:37.003Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"Blackbox","timestamp":"2025-05-03T07:24:37.005Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"Blackbox","timestamp":"2025-05-03T07:24:37.006Z"}
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-05-03T07:24:37.802Z"}
+{"message":"quitting app...","level":"info","hostname":"Blackbox","timestamp":"2025-05-03T07:24:39.001Z"}

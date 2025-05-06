@@ -1,0 +1,20 @@
+{
+  "disabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "enabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
+  "plugins": {
+    "Amazon.com Multiple Countries": "/home/smiley/.config/calibre/plugins/Amazon.com Multiple Countries.zip",
+    "Embed Comic Metadata": "/home/smiley/.config/calibre/plugins/Embed Comic Metadata.zip",
+    "Goodreads": "/home/smiley/.config/calibre/plugins/Goodreads.zip",
+    "KFX Input": "/home/smiley/.config/calibre/plugins/KFX Input.zip",
+    "KFX Output": "/home/smiley/.config/calibre/plugins/KFX Output.zip",
+    "Kindle hi-res covers": "/home/smiley/.config/calibre/plugins/Kindle hi-res covers.zip"
+  }
+}

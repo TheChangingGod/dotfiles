@@ -1,0 +1,107 @@
+[2025-04-14 20:50:22.794] [info]  [Motrix] Logger init
+[2025-04-14 20:50:22.825] [warn]  [Motrix] Logger init
+[2025-04-14 20:50:23.141] [info]  [Motrix] openedAtLogin: false
+[2025-04-14 20:50:23.593] [info]  [Motrix] Context.init===> {
+  platform: 'linux',
+  arch: 'x64',
+  'log-path': '/home/smiley/.config/Motrix/logs',
+  'session-path': '/home/smiley/.config/Motrix/download.session',
+  'engine-path': '/tmp/.mount_MotrixT9G95O/resources/engine',
+  'aria2-bin-path': '/tmp/.mount_MotrixT9G95O/resources/engine/aria2c',
+  'aria2-conf-path': '/tmp/.mount_MotrixT9G95O/resources/engine/aria2.conf'
+}
+[2025-04-14 20:50:24.665] [warn]  [Motrix] auto sync tracker data: [
+  'udp://93.158.213.92:1337/announce\n' +
+    '\n' +
+    'udp://23.134.90.9:1337/announce\n' +
+    '\n' +
+    'udp://185.243.218.213:80/announce\n' +
+    '\n' +
+    'udp://91.216.110.53:451/announce\n' +
+    '\n' +
+    'udp://23.157.120.14:6969/announce\n' +
+    '\n' +
+    'udp://83.102.180.21:80/announce\n' +
+    '\n' +
+    'http://34.94.76.146:2701/announce\n' +
+    '\n' +
+    'http://35.227.59.57:2710/announce\n' +
+    '\n' +
+    'http://34.89.91.10:11450/announce\n' +
+    '\n' +
+    'http://34.94.76.146:6969/announce\n' +
+    '\n' +
+    'http://34.94.76.146:2710/announce\n' +
+    '\n' +
+    'http://35.227.59.57:6969/announce\n' +
+    '\n' +
+    'http://35.227.59.57:80/announce\n' +
+    '\n' +
+    'http://34.89.91.10:80/announce\n' +
+    '\n' +
+    'http://34.94.76.146:80/announce\n' +
+    '\n' +
+    'http://35.227.59.57:1337/announce\n' +
+    '\n' +
+    'http://34.89.91.10:6969/announce\n' +
+    '\n' +
+    'http://35.227.59.57:80/announce.php\n' +
+    '\n' +
+    'http://35.227.59.57:6960/announce\n' +
+    '\n' +
+    'http://34.89.91.10:80/announce.php\n' +
+    '\n',
+  'udp://tracker.opentrackr.org:1337/announce\n' +
+    '\n' +
+    'udp://open.demonii.com:1337/announce\n' +
+    '\n' +
+    'udp://open.stealth.si:80/announce\n' +
+    '\n' +
+    'udp://tracker.torrent.eu.org:451/announce\n' +
+    '\n' +
+    'udp://explodie.org:6969/announce\n' +
+    '\n' +
+    'udp://tracker.skyts.net:6969/announce\n' +
+    '\n' +
+    'udp://tracker.ololosh.space:6969/announce\n' +
+    '\n' +
+    'udp://retracker01-msk-virt.corbina.net:80/announce\n' +
+    '\n' +
+    'udp://leet-tracker.moe:1337/announce\n' +
+    '\n' +
+    'udp://isk.richardsw.club:6969/announce\n' +
+    '\n' +
+    'udp://bt.ktrackers.com:6666/announce\n' +
+    '\n' +
+    'http://www.torrentsnipe.info:2701/announce\n' +
+    '\n' +
+    'http://www.genesis-sp.org:2710/announce\n' +
+    '\n' +
+    'http://tracker810.xyz:11450/announce\n' +
+    '\n' +
+    'http://tracker.xiaoduola.xyz:6969/announce\n' +
+    '\n' +
+    'http://tracker.vanitycore.co:6969/announce\n' +
+    '\n' +
+    'http://tracker.sbsub.com:2710/announce\n' +
+    '\n' +
+    'http://tracker.moxing.party:6969/announce\n' +
+    '\n' +
+    'http://tracker.lintk.me:2710/announce\n' +
+    '\n' +
+    'http://tracker.ipv6tracker.org:80/announce\n' +
+    '\n'
+]
+[2025-04-14 21:47:49.586] [warn]  [Motrix] call client fail: request to http://127.0.0.1:16800/jsonrpc failed, reason: socket hang up
+[2025-04-14 21:47:52.730] [info]  [Motrix] Logger init
+[2025-04-14 21:47:52.755] [warn]  [Motrix] Logger init
+[2025-04-14 21:47:53.002] [info]  [Motrix] openedAtLogin: false
+[2025-04-14 21:47:53.497] [info]  [Motrix] Context.init===> {
+  platform: 'linux',
+  arch: 'x64',
+  'log-path': '/home/smiley/.config/Motrix/logs',
+  'session-path': '/home/smiley/.config/Motrix/download.session',
+  'engine-path': '/tmp/.mount_MotrixGrw0CD/resources/engine',
+  'aria2-bin-path': '/tmp/.mount_MotrixGrw0CD/resources/engine/aria2c',
+  'aria2-conf-path': '/tmp/.mount_MotrixGrw0CD/resources/engine/aria2.conf'
+}

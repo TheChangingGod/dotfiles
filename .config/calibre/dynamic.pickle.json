@@ -1,0 +1,29 @@
+{
+  "add books dialog dir": "/mnt/archive/books/小説/グイン・サーガ",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "database location dialog": "/mnt/archive/books/Calibre Library",
+  "sort_history": [
+    [
+      "title",
+      false
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "title",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle_pw",
+  "welcome_wizard_was_run": true
+}

@@ -1,0 +1,680 @@
+{
+  "action-layout-menubar": [
+    "Embed Comic Metadata"
+  ],
+  "action-layout-searchbar": [
+    "Saved searches",
+    "Embed Comic Metadata"
+  ],
+  "action-layout-toolbar": [
+    "Add Books",
+    "Edit Metadata",
+    null,
+    "Convert Books",
+    "View",
+    null,
+    "Store",
+    "Donate",
+    "Fetch News",
+    "Help",
+    null,
+    "Preferences",
+    "Remove Books",
+    "Choose Library",
+    "Save To Disk",
+    "Connect Share",
+    "Tweak ePub",
+    "Embed Comic Metadata"
+  ],
+  "action-layout-toolbar-device": [
+    "Add Books",
+    "Edit Metadata",
+    null,
+    "Convert Books",
+    "View",
+    "Send To Device",
+    null,
+    null,
+    "Location Manager",
+    null,
+    null,
+    "Fetch News",
+    "Save To Disk",
+    "Store",
+    "Connect Share",
+    null,
+    "Remove Books",
+    null,
+    "Help",
+    "Preferences",
+    "Embed Comic Metadata"
+  ],
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA6QAAAWMAAAEKAf////8BAAAAAQA="
+  },
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "geometry-of-Plugin Updater plugin:plugin updater dialog": {
+    "frame_geometry": {
+      "height": 492,
+      "width": 922,
+      "x": 222,
+      "y": 138
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 486,
+      "width": 916,
+      "x": 225,
+      "y": 141
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 486,
+      "width": 916,
+      "x": 225,
+      "y": 141
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAADeAAAAigAABHcAAAJ1AAAA4QAAAI0AAAR0AAACcgAAAAAAAAAABVYAAADhAAAAjQAABHQAAAJy"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 721,
+      "width": 1306,
+      "x": 30,
+      "y": 37
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 715,
+      "width": 1300,
+      "x": 33,
+      "y": 40
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 715,
+      "width": 1300,
+      "x": 33,
+      "y": 40
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAeAAAAJQAABTcAAAL1AAAAIQAAACgAAAU0AAAC8gAAAAAAAAAABVYAAAAhAAAAKAAABTQAAALy"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-convert_bulk_dialog_geom": {
+    "frame_geometry": {
+      "height": 674,
+      "width": 1302,
+      "x": 32,
+      "y": 47
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 668,
+      "width": 1296,
+      "x": 35,
+      "y": 50
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 668,
+      "width": 1296,
+      "x": 35,
+      "y": 50
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAgAAAALwAABTUAAALQAAAAIwAAADIAAAUyAAACzQAAAAAAAAAABVYAAAAjAAAAMgAABTIAAALN"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-convert_single_dialog_geom": {
+    "frame_geometry": {
+      "height": 674,
+      "width": 1302,
+      "x": 32,
+      "y": 47
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 668,
+      "width": 1296,
+      "x": 35,
+      "y": 50
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 668,
+      "width": 1296,
+      "x": 35,
+      "y": 50
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAgAAAALwAABTUAAALQAAAAIwAAADIAAAUyAAACzQAAAAAAAAAABVYAAAAjAAAAMgAABTIAAALN"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-jobs_dialog_geometry": {
+    "frame_geometry": {
+      "height": 348,
+      "width": 360,
+      "x": 503,
+      "y": 210
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 342,
+      "width": 354,
+      "x": 506,
+      "y": 213
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 342,
+      "width": 354,
+      "x": 506,
+      "y": 213
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAH3AAAA0gAAA14AAAItAAAB+gAAANUAAANbAAACKgAAAAAAAAAABVYAAAH6AAAA1QAAA1sAAAIq"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-metadata_single_gui_geom": {
+    "frame_geometry": {
+      "height": 606,
+      "width": 856,
+      "x": 255,
+      "y": 81
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 600,
+      "width": 850,
+      "x": 258,
+      "y": 84
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 600,
+      "width": 850,
+      "x": 258,
+      "y": 84
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAD/AAAAUQAABFYAAAKuAAABAgAAAFQAAARTAAACqwAAAAAAAAAABVYAAAECAAAAVAAABFMAAAKr"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-metasingle_window_geometry3": {
+    "frame_geometry": {
+      "height": 724,
+      "width": 1302,
+      "x": 32,
+      "y": 22
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 718,
+      "width": 1296,
+      "x": 35,
+      "y": 25
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 718,
+      "width": 1296,
+      "x": 35,
+      "y": 25
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAgAAAAFgAABTUAAALpAAAAIwAAABkAAAUyAAAC5gAAAAAAAAAABVYAAAAjAAAAGQAABTIAAALm"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 726,
+      "width": 936,
+      "x": 215,
+      "y": 21
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 218,
+      "y": 24
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 218,
+      "y": 24
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAADXAAAAFQAABH4AAALqAAAA2gAAABgAAAR7AAAC5wAAAAAAAAAABVYAAADaAAAAGAAABHsAAALn"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-single-cover-fetch-dialog-geometry": {
+    "frame_geometry": {
+      "height": 294,
+      "width": 302,
+      "x": 532,
+      "y": 237
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 535,
+      "y": 240
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 288,
+      "width": 296,
+      "x": 535,
+      "y": 240
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAIUAAAA7QAAA0EAAAISAAACFwAAAPAAAAM+AAACDwAAAAAAAAAABVYAAAIXAAAA8AAAAz4AAAIP"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "AU Optronics",
+      "model": "",
+      "name": "LVDS1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "grid view visible": false,
+  "jobs view column layout3": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAAAAAAAA=="
+  },
+  "library_usage_stats": {
+    "/mnt/archive/books/Calibre Library": 8
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23059866962305986,
+      "cover_browser_width": 0.3494704992435703,
+      "quick_view_height": 0.25609756097560976,
+      "tag_browser_width": 0.24962178517397882
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.29954614220877457,
+      "cover_browser_height": 0.28600823045267487,
+      "quick_view_height": 0.23765432098765432,
+      "tag_browser_width": 0.29954614220877457
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
+  },
+  "metadata-download-identify-widget-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAACAAAAAQAA/////wEAAAABAA=="
+  },
+  "previous_sort_order_BooksView": {
+    "title": false
+  },
+  "quick_start_guide_added": true,
+  "qv_open_at_shutdown": false,
+  "recently_used_languages": [
+    "Japanese",
+    "English"
+  ],
+  "replace_scene_breaks_history": [
+    "",
+    "<hr />",
+    "∗ ∗ ∗",
+    "• • •",
+    "♦ ♦ ♦",
+    "† †",
+    "‡ ‡ ‡",
+    "∞ ∞ ∞",
+    "¤ ¤ ¤"
+  ],
+  "search bar visible": true,
+  "tag browser search box visible": false
+}

@@ -1,0 +1,31 @@
+# You can add comments to these files with #
+D   ${XDG_DOWNLOAD_DIR:-$HOME/Downloads}
+d   ${XDG_DOCUMENTS_DIR:-$HOME/Documents}
+dt  ${XDG_DATA_HOME:-$HOME/.local/share}
+h   $HOME
+m   ${XDG_MUSIC_DIR:-$HOME/Music}
+mn  /mnt
+pp  ${XDG_PICTURES_DIR:-$HOME/Pictures}
+sc  $HOME/.local/bin
+src $HOME/.local/src
+vv  ${XDG_VIDEOS_DIR:-$HOME/Videos}
+
+
+# Dotfiles
+cac ${XDG_CACHE_HOME:-$HOME/.cache}
+cf  ${XDG_CONFIG_HOME:-$HOME/.config}
+sc	~/.local/bin
+sr	~/.local/share
+rr  $HOME/.local/src
+
+
+# External drives
+mn	/mnt
+v	/mnt/archive/video
+a	/mnt/archive/audio
+o	/mnt/d/ongoing
+m	/mnt/d/video
+ytdl	/mnt/archive/video/ytdl
+books	/mnt/archive/books
+subs	/mnt/archive/japanese/kitsunekko-mirror/subtitles
+sites   /mnt/archive/websites

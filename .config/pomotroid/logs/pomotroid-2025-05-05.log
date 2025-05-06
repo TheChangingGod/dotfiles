@@ -1,0 +1,47 @@
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:42:51.968Z"}
+{"message":"app ready","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:42:52.465Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:42:52.724Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:42:52.725Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:42:52.726Z"}
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:42:53.522Z"}
+{"message":"focus round round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:43:11.482Z"}
+{"message":"focus round completed","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:50:11.492Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:50:13.014Z"}
+{"message":"quitting app...","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T01:51:21.251Z"}
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:03:55.200Z"}
+{"message":"app ready","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:03:55.563Z"}
+{"message":"Registering shortcut for call-timer-toggle: Control+F1","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:03:55.806Z"}
+{"message":"Registering shortcut for call-timer-reset: Control+F2","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:03:55.807Z"}
+{"message":"Registering shortcut for call-timer-skip: Control+F3","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:03:55.807Z"}
+{"message":"Preferences loaded from /home/smiley/.config/pomotroid/user-preferences.json","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:03:56.552Z"}
+{"message":"focus round round reset","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:04:50.392Z"}
+{"message":"focus round round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:07:59.179Z"}
+{"message":"focus round completed","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:27:59.192Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:28:00.714Z"}
+{"message":"short break completed","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:33:00.714Z"}
+{"message":"focus round round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:33:02.224Z"}
+{"message":"focus round round reset","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:48:21.935Z"}
+{"message":"focus round round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:48:24.711Z"}
+{"message":"focus round round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:48:26.291Z"}
+{"message":"focus round completed","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:58:26.296Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:58:27.813Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T02:59:04.531Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:19.161Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:19.667Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:19.969Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:19.989Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:20.012Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:20.364Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:20.792Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.092Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.112Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.134Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.159Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.174Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.192Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.215Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.233Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.253Z"}
+{"message":"short break round started","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:21.280Z"}
+{"message":"short break round paused","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T03:22:25.891Z"}
+{"message":"quitting app...","level":"info","hostname":"Blackbox","timestamp":"2025-05-05T06:15:10.922Z"}

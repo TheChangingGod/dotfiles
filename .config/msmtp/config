@@ -1,0 +1,11 @@
+account ngoma_acacia@yahoo.co.uk
+host smtp.mail.yahoo.com
+port 465
+from ngoma_acacia@yahoo.co.uk
+user ngoma_acacia@yahoo.co.uk
+passwordeval "pass ngoma_acacia@yahoo.co.uk"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/smiley/.local/state/msmtp/msmtp.log
+tls_starttls off

@@ -1,0 +1,22 @@
+.book-content div, .calibre2 p,
+.book-content div, .book-content p,
+.book-content .calibre2,
+.book-content .calibre3,
+.book-content .calibre4,
+.book-content .calibre {
+    font-family: "MS Mincho";
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    line-height: 38px;
+}
+
+.book-content rt {
+    font-family: "Meiryo";
+    font-size: 12px;
+}
+
+.md\:px-8 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+}

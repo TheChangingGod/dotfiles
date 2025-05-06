@@ -1,0 +1,191 @@
+# Vim snippets for Arduino
+#
+# http://hardwarefun.com
+#
+#  Copyright 2013 Sudar Muthu  (http://sudarmuthu.com)
+#  ------------------------------------------------------------------------------
+#  "THE BEER-WARE LICENSE" (Revision 42):
+#  Sudar <http://sudarmuthu.com> wrote this file.
+#  As long as you retain this notice you can do whatever you want with this stuff.
+#  If we ever meet and you are overcome with gratitude,
+#  feel free to express your feelings via beverage :)
+#  ------------------------------------------------------------------------------
+
+# TODO - add analog read/write
+
+extends cpp
+
+#  ------------------------------------------------------------------------------
+#  Setup and loop
+#  ------------------------------------------------------------------------------
+snippet su "setup()"
+void setup()
+	{
+${1}//Serial.begin(9600);
+
+		${2}
+	}
+endsnippet
+
+snippet inc
+#include <${1}.h>
+endsnippet
+
+snippet lp "loop()"
+void loop()
+	{
+		${1}
+	}
+endsnippet
+
+#  ------------------------------------------------------------------------------
+#  Read and write
+#  ------------------------------------------------------------------------------
+snippet dwh "digitalWrite - High" biAA
+　digitalWrite(${1:13}, ${2:HIGH});
+endsnippet
+
+snippet dwl "digitalWrite - Low" biAA
+　digitalWrite(${1:13}, ${2:LOW});
+endsnippet
+
+snippet dr "digitalRead" biA
+　digitalRead(${1:13});
+endsnippet
+snippet awh "analogWrite - High" biA　
+　analogWrite(${1:13}, ${2:13});
+endsnippet
+snippet ar "analogRead" biA
+　analogRead(${1:13});
+endsnippet
+
+#  ------------------------------------------------------------------------------
+#  pinMode function
+#  ------------------------------------------------------------------------------
+snippet pmi "pinMode - Input" biA
+　pinMode(${1:13}, ${2:INPUT});
+endsnippet
+
+snippet pmo "pinMode - Output" biA
+　pinMode(${1:13}, ${2:OUTPUT});
+endsnippet
+
+#  ------------------------------------------------------------------------------
+#  Map
+#  ------------------------------------------------------------------------------
+snippet mapx "map" A
+　map(${1:0}, ${2:0}, ${3:0}, ${4:0}, ${5:0});
+endsnippet
+
+#  ------------------------------------------------------------------------------
+#  Serial
+#  ------------------------------------------------------------------------------
+snippet sr "serial read" biA
+　Serial.read();
+endsnippet
+
+snippet sp "serial print"     A
+　Serial.print(${1:"hello"});
+endsnippet
+
+snippet ln "serial println"　A
+　Serial.println((${1:"hello"});
+endsnippet
+
+#  ------------------------------------------------------------------------------
+#  if, else, switch
+#  ------------------------------------------------------------------------------
+snippet if "if(condition) {}" A
+　if(${1:condition})
+{
+　${2:}
+}
+endsnippet
+
+snippet elif "else if(condition) {}" A
+　else if(${1:condition})
+{
+　${2:}
+}
+endsnippet
+
+snippet el "else {}" A
+　else
+{
+　${1:}
+}
+endsnippet
+
+#  ------------------------------------------------------------------------------
+#  for, while, switch case
+#  ------------------------------------------------------------------------------
+
+# switch
+snippet switch
+　switch (${1:/* variable */}) {
+	case ${2:/* variable case */}:
+		${3}
+		${4:break;}${5}
+	default:
+		${6}
+}
+endsnippet
+snippet case
+　case ${1:/* variable case */}:
+	${2}
+	${3:break;}
+endsnippet
+# for
+snippet for
+　for (int ${2:j} = 0; $2 < ${1:count}; $2${3:++}) {
+	${4}
+}
+endsnippet
+# for (custom)
+snippet forr
+　for (int ${1:j} = ${2:0}; ${3:$1 < 10}; $1${4:++}) {
+	${5}
+}
+endsnippet
+# while
+snippet wh
+　while ($1) {
+	${2}
+}
+endsnippet
+# do... while
+snippet do
+　do {
+	${2}
+} while ($1);
+endsnippet
+##
+#  ------------------------------------------------------------------------------
+#  Delays
+#  ------------------------------------------------------------------------------
+
+# delay
+snippet dl "Delay in milliseconds"
+　delay(${1});
+endsnippet
+snippet dlm "delayMicroseconds"
+delayMicroseconds(${1});
+endsnippet
+
+# millis
+snippet ml
+　millis();
+endsnippet
+#  ------------------------------------------------------------------------------
+#  Comments
+#  ------------------------------------------------------------------------------
+snippet slc "Single Line Comment" A
+　//
+endsnippet
+
+snippet mlc "Multiple line comments" A
+　/*
+
+
+　*/
+endsnippet
