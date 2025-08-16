@@ -1,0 +1,66 @@
+#!/bin/sh
+
+# This script does the following:
+# - Run by itself, set the wallpaper (at X start) using the existing symlink.
+# - If given a file, set that as the new wallpaper.
+# - If given a directory, choose a random image file in it.
+# - If pywal is installed, generates a color scheme and restarts AwesomeWM.
+
+title="Wallpaper Changed"
+
+# Symlink to the selected wallpaper
+bgloc="${XDG_DATA_HOME:-$HOME/.local/share}/bg"
+
+# Configs that get affected by pywal
+dunstconf="${XDG_CONFIG_HOME:-$HOME/.config}/dunst/dunstrc"
+zathuraconf="${XDG_CONFIG_HOME:-$HOME/.config}/zathura/zathurarc"
+
+# Silent mode
+while getopts "s" o; do
+    case "${o}" in
+        s) silent='1' ;;
+    esac
+done
+shift $((OPTIND - 1))
+
+# Backend for wal (optional random)
+[ -n "$random_backend" ] && BackEnd="$(shuf -n 1 -e colorz wal schemer2 haishoku)"
+
+# Choose new wallpaper if argument given
+if [ -n "$1" ]; then
+    trueloc="$(readlink -f "$1")"
+    case "$(file --mime-type -b "$trueloc")" in
+        image/* )
+            ln -sf "$trueloc" "$bgloc"
+            [ -z "$silent" ] && notify-send -i "$bgloc" "$title" "Changing wallpaper..."
+            ;;
+        inode/directory )
+            ln -sf "$(find "$trueloc" -iregex '.*\.$jpg\|jpeg\|png\|gif$' -type f | shuf -n 1)" "$bgloc"
+            [ -z "$silent" ] && notify-send -i "$bgloc" "$title" "Random wallpaper chosen."
+            ;;
+        *)
+            [ -z "$silent" ] && notify-send "🖼️ Error" "Not a valid image or directory."
+            exit 1
+            ;;
+    esac
+fi
+
+# Apply wallpaper
+xwallpaper --zoom "$bgloc"
+
+# Pywal and other integrations
+if command -v wal >/dev/null 2>&1; then
+    wal --backend "${BackEnd:-wal}" -i "$bgloc" -o "${XDG_CONFIG_HOME:-$HOME/.config}/wal/postrun" >/dev/null 2>&1
+
+    awesome-client "awesome.emit_signal('reload_theme')" >/dev/null 2>&1
+    [ -z "$silent" ] && notify-send -i "$bgloc" "$title" "Theme applied."
+
+    # Optional integrations
+    command -v chameleon.py >/dev/null 2>&1 && chameleon.py -i "$bgloc" --backend "${BackEnd:-wal}" >/dev/null 2>&1
+    command -v telegram-palette-gen >/dev/null 2>&1 && ~/.telegram-palette-gen/telegram-palette-gen --wal >/dev/null 2>&1
+    command -v xsettingsd >/dev/null 2>&1 && { killall xsettingsd; xsettingsd & disown; } >/dev/null 2>&1
+else
+    # Restore original configs if pywal isn't installed
+    [ -f "$dunstconf.bak" ] && unlink "$dunstconf" && mv "$dunstconf.bak" "$dunstconf"
+    [ -f "$zathuraconf.bak" ] && unlink "$zathuraconf" && mv "$zathuraconf.bak" "$zathuraconf"
+fi
