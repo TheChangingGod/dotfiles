@@ -64,3 +64,7 @@ local bling = require("bling")
 bling.module.window_swallowing.start()  -- activates window swallowing
 
 require("main.signals")
+
+
+-- Autostarting of apps always comes last
+awful.spawn.with_shell("~/.config/awesome/modules/autostart.sh")
