@@ -22,4 +22,13 @@ fcitx -dr &
 setxkbmap gb
 # Activate dbus variables
 dbus-update-activation-environment --all
- ssh-agent dwm
+exec dbus-run-session -- sh -c '
+  eval "$(ssh-agent -s)"
+
+  export GTK_IM_MODULE=fcitx
+  export QT_IM_MODULE=fcitx
+  export XMODIFIERS=@im=fcitx
+
+  fcitx5 -dr &
+  exec awesome
+'
